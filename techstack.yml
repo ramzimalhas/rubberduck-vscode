@@ -1,0 +1,475 @@
+repo_name: ramzimalhas/rubberduck-vscode
+report_id: bf9746b824d694d3a496ef59f3f903ae
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T06:59:47+00:00'
+requested_by: lgrammel
+provider: github
+branch: main
+detected_tools_count: 36
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  version: 4.7.7
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/extension/package.json
+  detection_source: lib/extension/package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-02-04 13:13:37.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-01-26 10:22:44.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/webview/package.json
+  detection_source: lib/webview/package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-02 22:13:16.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/webview/package.json
+  detection_source: lib/webview/package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-01-26 14:55:32.000000000 Z
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-02-04 11:06:03.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/.github/workflows/ovsx-deploy.yml
+  detection_source: ".github/workflows/ovsx-deploy.yml"
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-02 19:32:47.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-01 21:09:56.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-03 21:17:03.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-01-26 10:22:44.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/webview/package.json
+  detection_source: lib/webview/package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-06 19:14:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode
+  detection_source: Repo Metadata
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/common/package.json
+  detection_source: lib/common/package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-01-26 15:24:05.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/extension/package.json
+  detection_source: lib/extension/package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-01-28 19:39:18.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-01 21:09:56.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-01 21:09:56.000000000 Z
+- name: "@types/handlebars"
+  description: TypeScript definitions for Handlebars
+  package_url: https://www.npmjs.com/@types/handlebars
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17752/default_8cfeb169319d5cc646c1e13f8a10e7d7e7430d7c.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/extension/package.json
+  detection_source: lib/extension/package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-02-04 13:13:37.000000000 Z
+- name: "@types/marked"
+  description: TypeScript definitions for Marked
+  package_url: https://www.npmjs.com/@types/marked
+  version: 4.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17650/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/extension/package.json
+  detection_source: lib/extension/package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-02-04 13:13:37.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.11.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-01 19:28:20.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/webview/package.json
+  detection_source: lib/webview/package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-06 19:14:41.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/webview/package.json
+  detection_source: lib/webview/package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-06 19:14:41.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.49.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-01 21:09:56.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.49.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-01 21:09:56.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-01 21:09:56.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.32.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/webview/package.json
+  detection_source: lib/webview/package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-02 22:13:16.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/extension/package.json
+  detection_source: lib/extension/package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-02-04 13:13:37.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-01 21:09:56.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-01 21:09:56.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 4.2.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/extension/package.json
+  detection_source: lib/extension/package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-02-04 13:13:37.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/webview/package.json
+  detection_source: lib/webview/package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-06 19:14:41.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/webview/package.json
+  detection_source: lib/webview/package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-02 22:13:16.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/webview/package.json
+  detection_source: lib/webview/package.json
+  last_updated_by: Nicolas Carlo
+  last_updated_on: 2023-02-02 22:13:16.000000000 Z
+- name: simple-git
+  description: Simple GIT interface for node.js
+  package_url: https://www.npmjs.com/simple-git
+  version: 3.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16567/default_d6ff16957d0b119d673d5ec0eb21b08d8d5008f4.png
+  detection_source_url: https://github.com/ramzimalhas/rubberduck-vscode/blob/main/lib/extension/package.json
+  detection_source: lib/extension/package.json
+  last_updated_by: Lars Grammel
+  last_updated_on: 2023-02-15 20:06:18.000000000 Z
